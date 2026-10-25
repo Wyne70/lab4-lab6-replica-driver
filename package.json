@@ -1,0 +1,14 @@
+{
+  "name": "mongodb-replica-species-lab",
+  "version": "1.0.0",
+  "description": "MongoDB Replica Set and Node.js Driver CRUD Application",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  }
+}
